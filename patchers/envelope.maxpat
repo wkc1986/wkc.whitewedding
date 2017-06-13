@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 109.0, 154.0, 640.0, 480.0 ],
+		"rect" : [ 35.0, 207.0, 640.0, 480.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -34,34 +34,25 @@
 		"description" : "",
 		"digest" : "",
 		"tags" : "",
-		"style" : "whitewedding-2",
+		"style" : "whitewedding-4",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-12",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 310.0, 237.0, 64.333313, 20.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 139.666687, 5.75, 64.333313, 20.0 ],
-					"style" : "whitewedding",
-					"text" : "14457.89"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 0.0 ],
 					"format" : 6,
 					"id" : "obj-4",
+					"ignoreclick" : 1,
 					"maxclass" : "flonum",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 36.0, 75.0, 74.0, 22.0 ],
-					"style" : ""
+					"patching_rect" : [ 36.0, 75.0, 53.0, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 11.0, 3.75, 54.0, 22.0 ],
+					"style" : "",
+					"textcolor" : [ 0.836576, 0.903148, 0.643029, 1.0 ],
+					"triangle" : 0
 				}
 
 			}
@@ -145,7 +136,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 36.0, 36.0, 140.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.0, 3.75, 200.0, 24.0 ],
+					"presentation_rect" : [ 4.0, 3.75, 202.0, 24.0 ],
 					"prototypename" : "triangle horizontal",
 					"size" : 19500.0,
 					"style" : ""
@@ -207,8 +198,8 @@
 			}
 , 			{
 				"box" : 				{
-					"addpoints" : [ 0.0, 0.76, 0, 3537.569824, 0.186667, 0, 6921.33252, 0.466667, 0, 8228.695312, 0.213333, 0, 9459.154297, 0.85, 0, 11843.168945, 0.32, 0, 14457.894531, 0.68, 0 ],
-					"domain" : 14457.894531,
+					"addpoints" : [ 0.0, 0.76, 0, 4893.616699, 0.186667, 0, 9574.467773, 0.466667, 0, 11382.978516, 0.213333, 0, 13085.106445, 0.425, 0, 16382.978516, 0.32, 0, 20000.0, 0.68, 0 ],
+					"domain" : 20000.0,
 					"id" : "obj-1",
 					"maxclass" : "function",
 					"numinlets" : 1,
@@ -219,19 +210,6 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 4.0, 29.0, 200.0, 65.0 ],
 					"style" : ""
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-13",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 448.0, 166.0, 50.0, 22.0 ],
-					"style" : "",
-					"text" : "set $1"
 				}
 
 			}
@@ -251,15 +229,6 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-11", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-12", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-13", 0 ]
 				}
 
 			}
@@ -328,15 +297,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-13", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-4", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-6", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -381,8 +341,8 @@
 , 			{
 				"name" : "whitewedding",
 				"default" : 				{
+					"bgcolor" : [ 0.893824, 0.868845, 0.836105, 1.0 ],
 					"selectioncolor" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
-					"color" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"patchlinecolor" : [ 0.239216, 0.254902, 0.278431, 0.9 ],
 					"clearcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
@@ -396,7 +356,7 @@
 						"autogradient" : 0
 					}
 ,
-					"bgcolor" : [ 0.893824, 0.868845, 0.836105, 1.0 ],
+					"color" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 					"accentcolor" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 					"elementcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ]
 				}
@@ -407,8 +367,8 @@
 , 			{
 				"name" : "whitewedding-1",
 				"default" : 				{
+					"bgcolor" : [ 0.78703, 0.723086, 0.826883, 1.0 ],
 					"selectioncolor" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
-					"color" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"patchlinecolor" : [ 0.239216, 0.254902, 0.278431, 0.9 ],
 					"clearcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
@@ -422,7 +382,7 @@
 						"autogradient" : 0
 					}
 ,
-					"bgcolor" : [ 0.78703, 0.723086, 0.826883, 1.0 ],
+					"color" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 					"accentcolor" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 					"elementcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ]
 				}
@@ -433,8 +393,8 @@
 , 			{
 				"name" : "whitewedding-2",
 				"default" : 				{
+					"bgcolor" : [ 0.851296, 0.851271, 0.851285, 0.5 ],
 					"selectioncolor" : [ 0.952941, 0.564706, 0.098039, 1.0 ],
-					"color" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"patchlinecolor" : [ 0.239216, 0.254902, 0.278431, 0.9 ],
 					"clearcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
@@ -448,7 +408,59 @@
 						"autogradient" : 0
 					}
 ,
+					"color" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
+					"accentcolor" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
+					"elementcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ]
+				}
+,
+				"parentstyle" : "",
+				"multi" : 0
+			}
+, 			{
+				"name" : "whitewedding-3",
+				"default" : 				{
 					"bgcolor" : [ 0.851296, 0.851271, 0.851285, 0.5 ],
+					"selectioncolor" : [ 0.952941, 0.564706, 0.098039, 1.0 ],
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"patchlinecolor" : [ 0.239216, 0.254902, 0.278431, 0.9 ],
+					"clearcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
+					"bgfillcolor" : 					{
+						"type" : "gradient",
+						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+						"color1" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
+						"color2" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
+						"angle" : 270.0,
+						"proportion" : 0.39,
+						"autogradient" : 0
+					}
+,
+					"color" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
+					"accentcolor" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
+					"elementcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ]
+				}
+,
+				"parentstyle" : "",
+				"multi" : 0
+			}
+, 			{
+				"name" : "whitewedding-4",
+				"default" : 				{
+					"bgcolor" : [ 0.851296, 0.851271, 0.851285, 0.5 ],
+					"selectioncolor" : [ 0.952941, 0.564706, 0.098039, 1.0 ],
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"patchlinecolor" : [ 0.239216, 0.254902, 0.278431, 0.9 ],
+					"clearcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
+					"bgfillcolor" : 					{
+						"type" : "gradient",
+						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+						"color1" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
+						"color2" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
+						"angle" : 270.0,
+						"proportion" : 0.39,
+						"autogradient" : 0
+					}
+,
+					"color" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 					"accentcolor" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 					"elementcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ]
 				}

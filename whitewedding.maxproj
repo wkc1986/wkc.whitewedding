@@ -2,9 +2,9 @@
 	"name" : "whitewedding",
 	"version" : 1,
 	"creationdate" : -714990462,
-	"modificationdate" : -714944719,
+	"modificationdate" : -714906001,
 	"viewrect" : [ 25.0, 70.0, 300.0, 500.0 ],
-	"autoorganize" : 1,
+	"autoorganize" : 0,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
 	"autolocalize" : 0,
@@ -14,10 +14,6 @@
 				"kind" : "patcher",
 				"local" : 1,
 				"toplevel" : 1
-			}
-,
-			"rescaler.maxpat" : 			{
-				"kind" : "patcher"
 			}
 ,
 			"sequencer.maxpat" : 			{
@@ -33,6 +29,10 @@
 			"grain_synth.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
+			}
+,
+			"rescaler.maxpat" : 			{
+				"kind" : "patcher"
 			}
 
 		}
