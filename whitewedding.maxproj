@@ -2,7 +2,7 @@
 	"name" : "whitewedding",
 	"version" : 1,
 	"creationdate" : -714990462,
-	"modificationdate" : -714728967,
+	"modificationdate" : -714549822,
 	"viewrect" : [ 25.0, 70.0, 300.0, 500.0 ],
 	"autoorganize" : 0,
 	"hideprojectwindow" : 0,
@@ -51,6 +51,11 @@
 			}
 ,
 			"transratio.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"driftFO.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}

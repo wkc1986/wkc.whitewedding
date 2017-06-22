@@ -10,7 +10,8 @@
 		}
 ,
 		"rect" : [ 34.0, 79.0, 1372.0, 783.0 ],
-		"editing_bgcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
+		"bgcolor" : [ 0.851342, 0.851992, 0.830057, 1.0 ],
+		"editing_bgcolor" : [ 0.830243, 0.84045, 0.851233, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -35,7 +36,7 @@
 		"description" : "",
 		"digest" : "",
 		"tags" : "",
-		"style" : "whitewedding",
+		"style" : "default",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
@@ -1504,24 +1505,6 @@
 				}
 
 			}
-, 			{
-				"box" : 				{
-					"angle" : 270.0,
-					"grad1" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"grad2" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
-					"id" : "obj-13",
-					"maxclass" : "panel",
-					"mode" : 1,
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 1154.0, 612.0, 128.0, 128.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ -2.0, 1.0, 636.0, 192.0 ],
-					"proportion" : 0.39,
-					"style" : ""
-				}
-
-			}
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
@@ -2160,6 +2143,8 @@
 				"default" : 				{
 					"accentcolor" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 					"elementcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
+					"bgcolor" : [ 0.851296, 0.851271, 0.851285, 0.5 ],
+					"color" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 					"selectioncolor" : [ 0.952941, 0.564706, 0.098039, 1.0 ],
 					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"patchlinecolor" : [ 0.239216, 0.254902, 0.278431, 0.9 ],
@@ -2173,9 +2158,7 @@
 						"proportion" : 0.39,
 						"autogradient" : 0
 					}
-,
-					"color" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
-					"bgcolor" : [ 0.851296, 0.851271, 0.851285, 0.5 ]
+
 				}
 ,
 				"parentstyle" : "default",
@@ -2186,6 +2169,8 @@
 				"default" : 				{
 					"accentcolor" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 					"elementcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
+					"bgcolor" : [ 0.776493, 0.639209, 0.863013, 1.0 ],
+					"color" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 					"selectioncolor" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
 					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"patchlinecolor" : [ 0.239216, 0.254902, 0.278431, 0.9 ],
@@ -2199,9 +2184,7 @@
 						"proportion" : 0.39,
 						"autogradient" : 0
 					}
-,
-					"color" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
-					"bgcolor" : [ 0.776493, 0.639209, 0.863013, 1.0 ]
+
 				}
 ,
 				"parentstyle" : "",
