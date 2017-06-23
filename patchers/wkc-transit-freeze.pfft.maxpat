@@ -581,7 +581,7 @@
 					"outlettype" : [ "float", "bang" ],
 					"patching_rect" : [ 934.0, 344.0, 212.0, 22.0 ],
 					"style" : "",
-					"text" : "buffer~ #0-specgate @samps 4096"
+					"text" : "buffer~ #0-specgate @samps 1024"
 				}
 
 			}
@@ -822,9 +822,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 541.0, 307.0, 114.0, 22.0 ],
+					"patching_rect" : [ 541.0, 307.0, 107.0, 22.0 ],
 					"style" : "",
-					"text" : "count~ 0 16384 1 1"
+					"text" : "count~ 0 4096 1 1"
 				}
 
 			}
@@ -1056,6 +1056,10 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 35.0, 70.0, 30.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"attr_comment" : ""
+					}
+,
 					"style" : "",
 					"text" : "in 1"
 				}
@@ -1070,9 +1074,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 34.0, 382.0, 250.0, 22.0 ],
+					"patching_rect" : [ 34.0, 382.0, 243.0, 22.0 ],
 					"style" : "",
-					"text" : "jit.matrix #0-freeze-record 2 float32 8 2048"
+					"text" : "jit.matrix #0-freeze-record 2 float32 8 512"
 				}
 
 			}
@@ -1085,9 +1089,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 34.0, 418.0, 249.0, 22.0 ],
+					"patching_rect" : [ 34.0, 418.0, 243.0, 22.0 ],
 					"style" : "",
-					"text" : "jit.matrix #0-freeze-frozen 2 float32 8 2048"
+					"text" : "jit.matrix #0-freeze-frozen 2 float32 8 512"
 				}
 
 			}
@@ -1100,10 +1104,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 35.0, 699.0, 37.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"style" : "",
 					"text" : "out 1"
 				}
