@@ -4,6 +4,8 @@ A standalone Max 7 patch specially built for a short performance at a dear frien
 
 * granular cloud synthesis from loaded sample
 
+  * we recommend a sample of the chords to 'White Wedding' by Billy Idol, played languidly and at half-time on the neck pickup of a Fender Jaguar
+
 * random stutter repeat effect
 
 * spectral blurring/freezing effect
@@ -14,7 +16,7 @@ A standalone Max 7 patch specially built for a short performance at a dear frien
 
 * matrix routing of modulation data
 
-* live input sampling (soon)
+* live input sampling (maybe sometime)
 
 # Required packages
 

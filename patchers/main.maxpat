@@ -9,20 +9,20 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 219.0, 111.0, 1069.0, 671.0 ],
+		"rect" : [ 185.0, 77.0, 1070.0, 673.0 ],
 		"bgcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 		"editing_bgcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 		"bglocked" : 0,
-		"openinpresentation" : 0,
+		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
-		"default_fontname" : "Helvetica Neue",
+		"default_fontname" : "Arial",
 		"gridonopen" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
 		"gridsnaponopen" : 1,
 		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
-		"toolbarvisible" : 1,
+		"toolbarvisible" : 0,
 		"lefttoolbarpinned" : 0,
 		"toptoolbarpinned" : 0,
 		"righttoolbarpinned" : 0,
@@ -30,8 +30,8 @@
 		"toolbars_unpinned_last_save" : 0,
 		"tallnewobj" : 0,
 		"boxanimatetime" : 200,
-		"enablehscroll" : 1,
-		"enablevscroll" : 1,
+		"enablehscroll" : 0,
+		"enablevscroll" : 0,
 		"devicewidth" : 0.0,
 		"description" : "",
 		"digest" : "",
@@ -1001,10 +1001,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 388.699951, 18.15152, 174.0, 169.0 ],
+					"patching_rect" : [ 388.699951, 18.15152, 174.0, 163.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 10,
-					"presentation_rect" : [ 932.300049, 63.5, 128.399902, 169.0 ],
+					"presentation_rect" : [ 932.300049, 63.5, 128.399902, 163.0 ],
 					"style" : "",
 					"text" : "midpoint [SYNTH]\nwidth\nfreq\ngrain\nvar\npitch.dev\nsmooth [SPEC]\ngrain [STUT]\nrepeat\namp.var"
 				}
@@ -1132,7 +1132,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 582.0, 246.0, 738.0, 36.0 ],
+					"patching_rect" : [ 582.0, 246.0, 738.0, 35.0 ],
 					"style" : "",
 					"text" : "0 synth mod_midpoint, 1 synth mod_width, 2 synth mod_grainfreq, 3 synth mod_grain, 4 synth mod_var, 5 synth mod_pitchdev, 6 spec mod_smooth, 7 stutter mod_grain, 8 stutter mod_repeat, 9 stutter mod_ampvar"
 				}
@@ -1741,76 +1741,76 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-28::obj-28" : [ "init", "Init", 0 ],
-			"obj-67::obj-88" : [ "gain[12]", "Gain", 0 ],
-			"obj-39::obj-115" : [ "active[4]", "Active", 0 ],
-			"obj-49::obj-35" : [ "bus[2]", "Bus", 0 ],
-			"obj-52::obj-122" : [ "active[8]", "Active", 0 ],
-			"obj-28::obj-18" : [ "hifreq", "HiFreq", 0 ],
-			"obj-53::obj-30" : [ "qlist[3]", "Qlist", 0 ],
-			"obj-70::obj-122" : [ "rec", "Rec", 0 ],
-			"obj-36::obj-35" : [ "bus", "Bus", 0 ],
-			"obj-28::obj-9" : [ "active", "Active", 0 ],
-			"obj-53::obj-113" : [ "pan[2]", "Pan", 0 ],
-			"obj-56::obj-4" : [ "setname[5]", "Setname", 0 ],
-			"obj-38::obj-88" : [ "gain[1]", "Gain", 0 ],
-			"obj-51::obj-116" : [ "gain[5]", "Gain", 0 ],
-			"obj-39::obj-114" : [ "solo", "Solo", 0 ],
-			"obj-52::obj-35" : [ "bus[4]", "Bus", 0 ],
-			"obj-55::obj-88" : [ "gain[9]", "Gain", 0 ],
-			"obj-70::obj-88" : [ "gain[13]", "Gain", 0 ],
-			"obj-70::obj-24" : [ "file", "File", 0 ],
-			"obj-36::obj-122" : [ "active[2]", "Active", 0 ],
-			"obj-38::obj-35" : [ "bus[1]", "Bus", 0 ],
-			"obj-55::obj-35" : [ "bus[5]", "Bus", 0 ],
-			"obj-28::obj-16" : [ "lofreq", "LoFreq", 0 ],
-			"obj-28::obj-4" : [ "setname", "Setname", 0 ],
-			"obj-51::obj-30" : [ "qlist[2]", "Qlist", 0 ],
-			"obj-67::obj-122" : [ "active[17]", "Active", 0 ],
-			"obj-51::obj-113" : [ "pan[1]", "Pan", 0 ],
-			"obj-53::obj-4" : [ "setname[3]", "Setname", 0 ],
-			"obj-53::obj-115" : [ "active[9]", "Active", 0 ],
-			"obj-54::obj-114" : [ "solo[3]", "Solo", 0 ],
-			"obj-66::obj-88" : [ "gain[11]", "Gain", 0 ],
-			"obj-54::obj-115" : [ "active[10]", "Active", 0 ],
-			"obj-49::obj-122" : [ "active[5]", "Active", 0 ],
-			"obj-53::obj-116" : [ "gain[7]", "Gain", 0 ],
-			"obj-28::obj-17" : [ "mid", "Mid", 0 ],
-			"obj-39::obj-30" : [ "qlist[1]", "Qlist", 0 ],
-			"obj-51::obj-4" : [ "setname[2]", "Setname", 0 ],
-			"obj-28::obj-19" : [ "lo", "Lo", 0 ],
-			"obj-36::obj-88" : [ "gain", "Gain", 0 ],
-			"obj-53::obj-114" : [ "solo[2]", "Solo", 0 ],
-			"obj-55::obj-122" : [ "active[11]", "Active", 0 ],
-			"obj-39::obj-113" : [ "pan", "Pan", 0 ],
-			"obj-52::obj-88" : [ "gain[6]", "Gain", 0 ],
-			"obj-56::obj-113" : [ "pan[4]", "Pan", 0 ],
-			"obj-56::obj-114" : [ "solo[4]", "Solo", 0 ],
-			"obj-50::obj-88" : [ "gain[4]", "Gain", 0 ],
-			"obj-66::obj-35" : [ "bus[6]", "Bus", 0 ],
-			"obj-67::obj-35" : [ "bus[7]", "Bus", 0 ],
-			"obj-62::obj-24" : [ "output[1]", "Output", 0 ],
-			"obj-39::obj-4" : [ "setname[1]", "Setname", 0 ],
-			"obj-50::obj-122" : [ "active[6]", "Active", 0 ],
-			"obj-51::obj-114" : [ "solo[1]", "Solo", 0 ],
-			"obj-28::obj-36" : [ "hi", "Hi", 0 ],
 			"obj-49::obj-88" : [ "gain[3]", "Gain", 0 ],
-			"obj-28::obj-30" : [ "qlist", "Qlist", 0 ],
-			"obj-74::obj-122" : [ "active[13]", "Active", 0 ],
-			"obj-74::obj-88" : [ "gain[15]", "Gain", 0 ],
-			"obj-50::obj-35" : [ "bus[3]", "Bus", 0 ],
+			"obj-54::obj-116" : [ "gain[8]", "Gain", 0 ],
+			"obj-55::obj-122" : [ "active[11]", "Active", 0 ],
+			"obj-28::obj-19" : [ "lo", "Lo", 0 ],
+			"obj-36::obj-122" : [ "active[2]", "Active", 0 ],
 			"obj-51::obj-115" : [ "active[7]", "Active", 0 ],
-			"obj-66::obj-122" : [ "active[16]", "Active", 0 ],
-			"obj-56::obj-30" : [ "qlist[5]", "Qlist", 0 ],
-			"obj-54::obj-113" : [ "pan[3]", "Pan", 0 ],
-			"obj-38::obj-122" : [ "active[3]", "Active", 0 ],
-			"obj-39::obj-116" : [ "gain[2]", "Gain", 0 ],
-			"obj-56::obj-116" : [ "gain[10]", "Gain", 0 ],
-			"obj-54::obj-30" : [ "qlist[4]", "Qlist", 0 ],
+			"obj-53::obj-113" : [ "pan[2]", "Pan", 0 ],
+			"obj-49::obj-35" : [ "bus[2]", "Bus", 0 ],
+			"obj-53::obj-30" : [ "qlist[3]", "Qlist", 0 ],
+			"obj-53::obj-114" : [ "solo[2]", "Solo", 0 ],
+			"obj-67::obj-35" : [ "bus[7]", "Bus", 0 ],
+			"obj-53::obj-4" : [ "setname[3]", "Setname", 0 ],
+			"obj-70::obj-88" : [ "gain[13]", "Gain", 0 ],
+			"obj-50::obj-88" : [ "gain[4]", "Gain", 0 ],
 			"obj-56::obj-115" : [ "active[12]", "Active", 0 ],
-			"obj-54::obj-4" : [ "setname[4]", "Setname", 0 ],
+			"obj-28::obj-16" : [ "lofreq", "LoFreq", 0 ],
+			"obj-38::obj-122" : [ "active[3]", "Active", 0 ],
+			"obj-52::obj-122" : [ "active[8]", "Active", 0 ],
+			"obj-54::obj-113" : [ "pan[3]", "Pan", 0 ],
+			"obj-50::obj-35" : [ "bus[3]", "Bus", 0 ],
+			"obj-54::obj-30" : [ "qlist[4]", "Qlist", 0 ],
+			"obj-54::obj-114" : [ "solo[3]", "Solo", 0 ],
 			"obj-74::obj-35" : [ "bus[8]", "Bus", 0 ],
-			"obj-54::obj-116" : [ "gain[8]", "Gain", 0 ]
+			"obj-28::obj-9" : [ "active", "Active", 0 ],
+			"obj-54::obj-4" : [ "setname[4]", "Setname", 0 ],
+			"obj-74::obj-88" : [ "gain[15]", "Gain", 0 ],
+			"obj-51::obj-116" : [ "gain[5]", "Gain", 0 ],
+			"obj-28::obj-30" : [ "qlist", "Qlist", 0 ],
+			"obj-28::obj-36" : [ "hi", "Hi", 0 ],
+			"obj-70::obj-24" : [ "file", "File", 0 ],
+			"obj-74::obj-122" : [ "active[13]", "Active", 0 ],
+			"obj-28::obj-17" : [ "mid", "Mid", 0 ],
+			"obj-39::obj-115" : [ "active[4]", "Active", 0 ],
+			"obj-53::obj-115" : [ "active[9]", "Active", 0 ],
+			"obj-56::obj-113" : [ "pan[4]", "Pan", 0 ],
+			"obj-52::obj-35" : [ "bus[4]", "Bus", 0 ],
+			"obj-56::obj-30" : [ "qlist[5]", "Qlist", 0 ],
+			"obj-39::obj-114" : [ "solo", "Solo", 0 ],
+			"obj-56::obj-114" : [ "solo[4]", "Solo", 0 ],
+			"obj-56::obj-116" : [ "gain[10]", "Gain", 0 ],
+			"obj-38::obj-88" : [ "gain[1]", "Gain", 0 ],
+			"obj-56::obj-4" : [ "setname[5]", "Setname", 0 ],
+			"obj-52::obj-88" : [ "gain[6]", "Gain", 0 ],
+			"obj-55::obj-88" : [ "gain[9]", "Gain", 0 ],
+			"obj-66::obj-122" : [ "active[16]", "Active", 0 ],
+			"obj-49::obj-122" : [ "active[5]", "Active", 0 ],
+			"obj-62::obj-24" : [ "output[1]", "Output", 0 ],
+			"obj-39::obj-30" : [ "qlist[1]", "Qlist", 0 ],
+			"obj-36::obj-35" : [ "bus", "Bus", 0 ],
+			"obj-55::obj-35" : [ "bus[5]", "Bus", 0 ],
+			"obj-70::obj-122" : [ "rec", "Rec", 0 ],
+			"obj-39::obj-4" : [ "setname[1]", "Setname", 0 ],
+			"obj-66::obj-88" : [ "gain[11]", "Gain", 0 ],
+			"obj-39::obj-116" : [ "gain[2]", "Gain", 0 ],
+			"obj-39::obj-113" : [ "pan", "Pan", 0 ],
+			"obj-53::obj-116" : [ "gain[7]", "Gain", 0 ],
+			"obj-28::obj-28" : [ "init", "Init", 0 ],
+			"obj-28::obj-4" : [ "setname", "Setname", 0 ],
+			"obj-54::obj-115" : [ "active[10]", "Active", 0 ],
+			"obj-28::obj-18" : [ "hifreq", "HiFreq", 0 ],
+			"obj-67::obj-122" : [ "active[17]", "Active", 0 ],
+			"obj-36::obj-88" : [ "gain", "Gain", 0 ],
+			"obj-51::obj-113" : [ "pan[1]", "Pan", 0 ],
+			"obj-50::obj-122" : [ "active[6]", "Active", 0 ],
+			"obj-38::obj-35" : [ "bus[1]", "Bus", 0 ],
+			"obj-51::obj-30" : [ "qlist[2]", "Qlist", 0 ],
+			"obj-51::obj-114" : [ "solo[1]", "Solo", 0 ],
+			"obj-66::obj-35" : [ "bus[6]", "Bus", 0 ],
+			"obj-51::obj-4" : [ "setname[2]", "Setname", 0 ],
+			"obj-67::obj-88" : [ "gain[12]", "Gain", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -1892,8 +1892,8 @@
 			}
 , 			{
 				"name" : "stutterly.maxpat",
-				"bootpath" : "~/Documents/Max 7",
-				"patcherrelativepath" : "../../..",
+				"bootpath" : "~/Documents/Max 7/Projects/whitewedding/patchers",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -2272,8 +2272,12 @@
 , 			{
 				"name" : "whitewedding",
 				"default" : 				{
-					"clearcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
+					"bgcolor" : [ 0.893824, 0.868845, 0.836105, 1.0 ],
+					"selectioncolor" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"patchlinecolor" : [ 0.239216, 0.254902, 0.278431, 0.9 ],
 					"color" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
+					"clearcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -2284,12 +2288,8 @@
 						"autogradient" : 0
 					}
 ,
-					"bgcolor" : [ 0.893824, 0.868845, 0.836105, 1.0 ],
 					"accentcolor" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
-					"elementcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
-					"selectioncolor" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"patchlinecolor" : [ 0.239216, 0.254902, 0.278431, 0.9 ]
+					"elementcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ]
 				}
 ,
 				"parentstyle" : "default",
@@ -2298,8 +2298,12 @@
 , 			{
 				"name" : "whitewedding-1",
 				"default" : 				{
-					"clearcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
+					"bgcolor" : [ 0.776493, 0.639209, 0.863013, 1.0 ],
+					"selectioncolor" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"patchlinecolor" : [ 0.239216, 0.254902, 0.278431, 0.9 ],
 					"color" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
+					"clearcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -2310,12 +2314,8 @@
 						"autogradient" : 0
 					}
 ,
-					"bgcolor" : [ 0.776493, 0.639209, 0.863013, 1.0 ],
 					"accentcolor" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
-					"elementcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
-					"selectioncolor" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"patchlinecolor" : [ 0.239216, 0.254902, 0.278431, 0.9 ]
+					"elementcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -2324,8 +2324,12 @@
 , 			{
 				"name" : "whitewedding-2",
 				"default" : 				{
-					"clearcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
+					"bgcolor" : [ 0.851296, 0.851271, 0.851285, 0.5 ],
+					"selectioncolor" : [ 0.952941, 0.564706, 0.098039, 1.0 ],
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"patchlinecolor" : [ 0.239216, 0.254902, 0.278431, 0.9 ],
 					"color" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
+					"clearcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -2336,12 +2340,8 @@
 						"autogradient" : 0
 					}
 ,
-					"bgcolor" : [ 0.851296, 0.851271, 0.851285, 0.5 ],
 					"accentcolor" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
-					"elementcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
-					"selectioncolor" : [ 0.952941, 0.564706, 0.098039, 1.0 ],
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"patchlinecolor" : [ 0.239216, 0.254902, 0.278431, 0.9 ]
+					"elementcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -2350,8 +2350,12 @@
 , 			{
 				"name" : "whitewedding-3",
 				"default" : 				{
-					"clearcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
+					"bgcolor" : [ 0.851296, 0.851271, 0.851285, 0.5 ],
+					"selectioncolor" : [ 0.952941, 0.564706, 0.098039, 1.0 ],
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"patchlinecolor" : [ 0.239216, 0.254902, 0.278431, 0.9 ],
 					"color" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
+					"clearcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -2362,12 +2366,8 @@
 						"autogradient" : 0
 					}
 ,
-					"bgcolor" : [ 0.851296, 0.851271, 0.851285, 0.5 ],
 					"accentcolor" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
-					"elementcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
-					"selectioncolor" : [ 0.952941, 0.564706, 0.098039, 1.0 ],
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"patchlinecolor" : [ 0.239216, 0.254902, 0.278431, 0.9 ]
+					"elementcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ]
 				}
 ,
 				"parentstyle" : "default",
@@ -2376,22 +2376,14 @@
 , 			{
 				"name" : "whitewedding-3-1",
 				"default" : 				{
-					"color" : [ 0.858326, 0.784217, 0.863328, 1.0 ],
-					"bgcolor" : [ 0.358573, 0.333383, 0.3663, 1.0 ]
+					"bgcolor" : [ 0.358573, 0.333383, 0.3663, 1.0 ],
+					"color" : [ 0.858326, 0.784217, 0.863328, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
 				"multi" : 0
 			}
- ],
-		"elementcolor" : [ 0.522397, 0.541645, 0.600966, 1.0 ],
-		"bgfillcolor_type" : "gradient",
-		"bgfillcolor_color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-		"bgfillcolor_color1" : [ 0.639216, 0.458824, 0.070588, 1.0 ],
-		"bgfillcolor_color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-		"bgfillcolor_angle" : 270.0,
-		"bgfillcolor_proportion" : 0.39,
-		"bgfillcolor_autogradient" : 0
+ ]
 	}
 
 }
